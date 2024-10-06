@@ -1,4 +1,4 @@
-import {createClient, OAuthStrategy} from '@wix/sdk';
+import {createClient , OAuthStrategy} from '@wix/sdk';
 
 export useWixClient = () => {
     const wixClient = createClient({
